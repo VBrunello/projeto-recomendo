@@ -2,6 +2,33 @@
 
 @media screen and (min-width: 768px) {
     section{
-        width: 650px;
+        width: 700px;
+    }
+
+    section > div > p{
+        text-align: justify;
+        padding: 10px;
+    }
+
+    section.esquerda > h1, section.esquerda > h2{
+        text-align: left;
+        padding-left: 10px;
+    }
+    
+    section.direita > h1, section.direita > h2{
+        text-align: right;
+        padding-right: 10px;
+    }
+
+    .container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    section > div > img{
+        width: 200px;
+        padding-left: 10px;
+        padding-right: 10px;
     }
 }
