@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    background-color: black;
+    height: 100px;
+}
+
+header > h1{
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 25px;
+}
+
+section{
+    background-color: lightgray;
+    width: 450px;
+    margin: auto;
+}
+
+section > h1, h2, p{
+    text-align: center;
+    padding-top: 10px;
+}
+
+section > h2 {
+    font-size: 1em;
+}
+
+section > p{
+    padding-bottom: 5px;
+}
+
+section > img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
