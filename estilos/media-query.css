@@ -28,6 +28,7 @@
 
     section > div > img{
         width: 200px;
+        height: 150px;
         padding-left: 10px;
         padding-right: 10px;
     }
