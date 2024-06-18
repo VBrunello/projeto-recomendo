@@ -33,7 +33,6 @@ section{
     background-color: lightgray;
     width: 400px;
     margin: auto;
-    box-shadow: 2.5px 2.5px 1px rgba(0, 0, 0, 0.26);
 }
 
 section > h1, p{
